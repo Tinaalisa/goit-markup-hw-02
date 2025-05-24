@@ -86,10 +86,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px; 
+    cursor: pointer; 
 }
 
 .hero button:hover,
@@ -114,15 +111,8 @@ a {
 
 .strengths ul {
     list-style: none;
-    display: flex;
-    gap: 24px;
     padding: 0;
-    margin: 0;
-    justify-content: center; 
-}
-
-.strengths li {
-    width: 264px; 
+    margin: 0; 
 }
 
 .strengths h3 {
@@ -158,22 +148,8 @@ a {
 
 .team ul {
     list-style: none;
-    display: flex;
-    gap: 24px;
-    justify-content: center;
     padding: 0;
     margin: 0; 
-}
-
-.team li {
-    background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08),
-        0px 1px 1px rgba(0, 0, 0, 0.16),
-        0px 1px 6px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    width: 264px;
-    padding-bottom: 32px; 
 }
 
 .team h3 {
@@ -208,21 +184,9 @@ a {
     margin-bottom: 72px; 
 }
 
-.portfolio-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-  }
-
 .portfolio-item {
-    width: 360px;
     background-color: #ffffff;
-    border: 1px solid #e7e9fc; 
-}
+ }
 
 .portfolio-subtitle {
     font-size: 20px;
@@ -243,14 +207,11 @@ a {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding-top: 100px 0;
+    padding-bottom: 100;
 }
 
 .footer .container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-left: 156px;
 }
 
 .footer-logo {
@@ -275,8 +236,3 @@ a {
     color: #f4f4fd;
     max-width: 264px;
  }
-
- .footer-inner {
-     display: flex;
-     flex-direction: column; 
-    }
