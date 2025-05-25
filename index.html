@@ -19,30 +19,37 @@
             rel="stylesheet"
         />
 
-        <link ref="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
 
     </head>
-        <header>
-            <nav>
-            <a href="./index.html">WebStudio</a>
-                <ul>
-                 <li><a href="">Studio</a></li>
-                 <li><a href="">Portfolio</a></li>
-                 <li><a href="">Contacts</a></li>
+    <body>
+        <header class="page-header">
+            <nav class="header-nav">
+            <a class="logo header-logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span>
+            </a>
+                <ul class="nav-list">
+                 <li class="nav-item"><a class="nav-link" href="./index.html">Studio</a></li>
+                 <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+                 <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
                 </ul>
             </nav>
 
-            <address>
-                <ul>
-                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <address class="contacts">
+                <ul class="contacts-list">
+                 <li class="contacts-item">
+                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
                  <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
         </header>
     <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+        <section class="hero">
+            <div class="hero-container">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button class="button" type="button">Order Service</button>
+            </div>
         </section>
 
         <section>
@@ -89,6 +96,42 @@
                     <img src="./images/Team-4.jpg" alt="Daniel Wilson" width="264">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="portfolio">
+            <h2 class="portfolio-title">Our Portfolio</h2>
+            <ul class="portfolio-list">
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-1.jpg" alt="Banking App interface" width="360">
+                    <h3 class="portfolio-subtitle">Banking App</h3>
+                    <p class="portfolio-text">App</p>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-2.jpg" alt="Cashless Payment phone interface" width="360">
+                    <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                    <p class="portfolio-text">Marketing</p>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-3.jpg" alt="Meditation App on laptop" width="360">
+                    <h3 class="portfolio-subtitle">Meditation App</h3>
+                    <p class="portfolio-text">App</p>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-4.jpg" alt="Taxi service app interface" width="360">
+                    <h3 class="portfolio-subtitle">Taxi Service</h3>
+                    <p class="portfolio-text">Website</p>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-5.jpg" alt="Screen Illustrations for mobile app" width="360">
+                    <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                    <p class="portfolio-text">Design</p>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-6.jpg" alt="Online Courses on laptop" width="360">
+                    <h3 class="portfolio-subtitle">Online Courses</h3>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
             </ul>
         </section>

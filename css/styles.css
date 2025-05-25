@@ -54,4 +54,5 @@ a {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404bbf; }
+color: #404bbf; 
+}
