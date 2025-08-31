@@ -125,7 +125,7 @@ address {
     font-weight: 700;
     text-align: center;
     color: #2e2f42;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .team-item {
@@ -156,7 +156,7 @@ address {
     font-weight: 700;
     text-align: center;
     color: #2e2f42;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .portfolio-name {
